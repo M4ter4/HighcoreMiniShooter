@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93455676abd44f93ac19199380b26f8b, type: 3}
+  m_Name: PlayerShockerData
+  m_EditorClassIdentifier: 
+  weaponName: Shocker
+  fireMode: 0
+  damage: 1
+  fireRate: 1
+  range: 50
+  spread: 0
+  reloadTime: 1.5
+  magazineSize: 10
+  pelletsPerShot: 1
+  projectilePrefab: {fileID: 7722915274143045953, guid: 72752bbcb1e7f144dbeb1a39156df902, type: 3}
+  projectileSpeed: 30
+  statusEffectData: {fileID: 11400000, guid: 31aeeaa21fa4fa641a61bf2bd83c8d14, type: 2}
