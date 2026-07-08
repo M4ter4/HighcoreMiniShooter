@@ -30,11 +30,18 @@ namespace Gameplay.Input
             _actionMap = new InputActionMap("Player");
 
             _moveAction = _actionMap.AddAction("Move", InputActionType.Value);
+            
             _moveAction.AddCompositeBinding("2DVector")
                 .With("Up", "<Keyboard>/w")
                 .With("Down", "<Keyboard>/s")
                 .With("Left", "<Keyboard>/a")
                 .With("Right", "<Keyboard>/d");
+            
+            _moveAction.AddCompositeBinding("2DVector")
+                .With("Up", "<Keyboard>/upArrow")
+                .With("Down", "<Keyboard>/downArrow")
+                .With("Left", "<Keyboard>/leftArrow")
+                .With("Right", "<Keyboard>/rightArrow");
 
             _lookAction = _actionMap.AddAction("Look", InputActionType.Value, "<Mouse>/position");
 
